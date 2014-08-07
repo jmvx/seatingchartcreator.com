@@ -1,0 +1,155 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    height:800px;
+}
+
+.nodesk .unoccupied {
+    background:white;
+    color:black;
+}
+
+.desk {
+    background:#d3d7cf;
+    color:black;
+}
+
+.occupied {
+    background:#fce94f;
+}
+
+#sidebar {
+    width:210px;
+    float:left;
+    margin-left:610px;
+    position:absolute;
+    top:100px;
+}
+
+#roster {
+    width:210px;
+    float:left;
+    margin-left:840px;
+    position:absolute;
+    top:100px;
+}
+
+#directions h1 h2 {
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+
+#directions ul {
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+}
+
+#directions p {
+    padding-left:20px;
+}
+
+.orientation {
+    width:584px;
+    float:left;
+    padding:5px;
+    font-weight:bold;
+    position:absolute;
+    left:250px;
+    top:720px;
+}
+
+.student1, .student2 {
+    font-weight:bold;
+    display:inline;
+}
+
+#content {
+    position:absolute;
+    top:120px;
+}
+
+#title {
+    font-size:20pt;
+    font-family: 'Open Sans', sans-serif;
+    color:#f57900;
+    padding-left:10px;
+}
+
+#subtitle {
+    font-size:12px;
+    padding-left:10px;
+    padding-bottom:5px;
+}
+
+#title a {
+    text-decoration:none;
+    color:#f57900;
+}
+
+h1 {
+    font-size:15pt;
+    color:#f57900;
+    font-weight:normal;
+}
+
+h2 {
+    font-size:12pt;
+    color:rgb(143, 177, 113);
+}
+
+td {
+    padding:2px;
+    border:solid;
+    overflow:hidden;
+    white-space:nowrap;
+    width:25px;
+    height:25px;
+    text-align:center;
+    border-color:black;
+    font-size:14px;
+}
+
+table {
+    float:left;
+    table-layout:fixed;
+    border-width:1px;
+    border-style:solid;
+    width:600px;
+    height:600px;
+    border-color:black;
+    position:absolute;
+    top:120px;
+}
+
+td {
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+}
+
+#navigation {
+    position:absolute;
+    width:600px;
+}
+
+#navigation li {
+    width:100px;
+    display:inline;
+    position:relative;
+    right:40px;
+    padding:5px;
+    background-color:#729fcf;
+    border-radius:8px;
+    -moz-border-radius: 8px;
+}
+
+#navigation a {
+    text-decoration:none;
+    color:white;
+}
+
+#navigation li:hover {
+    opacity:0.50;
+}
+
+

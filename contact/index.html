@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="../stylesheet.css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="seatingchart.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+<title>SeatingChartCreator.com</title>
+</head>
+
+<body>
+	<div id="title"><a href="#">SeatingChartCreator.com</a></div>
+	<div id="subtitle">A seating chart app made by teachers for teachers</div>
+	
+	<div id="navigation">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Features</a></li>
+			<li><a href="#">Purchasing</a></li>
+			<li><a href="#">Support</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">Sign In</a></li>
+		</ul>	
+	</div>
+		
+	<!-- Table for seating chart -->
+	<div id="content">
+		<p>Contact me!!!!</p>
+	</div>
+	
+	<!-- Directions for using seating chart -->
+	<div id="sidebar">
+		<div id="directions">
+			<h1>Directions</h1>	
+			<ul>
+				<li><h2>To layout your classroom:</h2> 
+					<p>Click the cells to add desks. Leave space between non-adjacent desks.</p></li>
+				<li><h2>To add students:</h2> 
+					<p>Enter student names to the right. Click "Arrange Students" when
+						finished.</p></li>
+				<li><h2>Removing desks:</h2>
+					<p>Click on the cells (occupied or unoccupied) that you wish to remove.</p></li>
+			</ul>
+
+		</div>
+		<div id="schartform">
+				<fieldset>
+					<legend>Smart Seating Chart:</legend>
+					<p> Do you want <span class="student1">____</span> and <span class="student2">____</span> next to each other?</p>
+					<input type="radio" name="answer" value="yes">Yes</input>
+					<input type="radio" name="answer" value="no">No</input>
+				</fieldset>	
+		</div>
+	</div>
+	
+	<!-- Another sidebar -->
+	<div id="roster">
+		<h1>Class Roster</h1>
+			Student Name:<input type="text" name="studentName" />
+			<button class="arrange">Arrange Students</button>
+		<ul class="classList"></ul>
+	</div>
+	
+	<div class="orientation">Front of Room</div>
+
+</body>
+
+</html>
