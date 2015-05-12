@@ -30,7 +30,7 @@ function seatingChart() {
 	//roster list and use to randomly place in a seating chart
 	var k = 0;
 	
-	$("input:text").change(function(){ alert("f 1");
+	$("input:text").change(function(){
   	    if ($("input:text[name=studentName]").val() != ""){
   	        var aStudent = $("<li>");
   	        aStudent.text($("input:text[name=studentName]").val());
@@ -43,7 +43,7 @@ function seatingChart() {
   	    if (classRoster.length >=2) {     
   	        var pair = pickTwoStudents();
   	      	        
-            $("input:radio").click(function(){ alert("f 2");
+            $("input:radio").click(function(){
                 var sname = $("input:radio[name=answer]:checked").val();
                 if (sname != undefined) {
                     alert("f 2.1");
@@ -56,7 +56,6 @@ function seatingChart() {
                     var test = new Array();
                     var flag = false;
                     for (var h = 0; h < chartRules.length; h++) {
-                        alert("f 2.2");
                         test = chartRules[h];
                         alert(test);
                         alert(studentRules);
