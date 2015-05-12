@@ -46,7 +46,6 @@ function seatingChart() {
             $("input:radio").click(function(){
                 var sname = $("input:radio[name=answer]:checked").val();
                 if (sname != undefined) {
-                    alert("f 2.1");
                     numRules++;
                     var studentRules = new Array();
                     studentRules[0] = pair[0];
@@ -57,9 +56,9 @@ function seatingChart() {
                     var flag = false;
                     for (var h = 0; h < chartRules.length; h++) {
                         test = chartRules[h];
-                        alert(test);
-                        alert(studentRules);
-                        alert(pair);
+                        // alert(test);
+                        // alert(studentRules);
+                        // alert(pair);
                         if ((test[0] == studentRules[0] && test[1] == studentRules[1]) ||
                         (test[0] == studentRules[1] && test[1] == studentRules[0])) {
                             flag = true;
@@ -120,7 +119,7 @@ function seatingChart() {
 	});
 }
 
-function pickTwoStudents() { alert("f 3");
+function pickTwoStudents() {
     var sIndex1 = 0;
 	var sIndex2 = 0;
 	var studentpair = new Array();
